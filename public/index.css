@@ -12,29 +12,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.list-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.list-title {
-  width: 280px;
-  font-family: Open Sans, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 36px;
-  line-height: 48px;
-  color: #323c48;
-}
-
-.list-items {
-  width: 280px;
-  font-family: Open Sans, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 32px;
-  color: #323c48;
-}

@@ -14,7 +14,7 @@ function ListItem(props) {
 }
 
 function List(props) {
-  const items = props.items.filter((item, index) => index < 3);
+  const items = props.items.slice(0, 3);
   return (
     <ul className="list-items">
       {items.map((item) => <ListItem key={item.id} value={item.name} />)}
